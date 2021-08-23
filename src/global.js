@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 export const userKey = '__seekclass_user'
-export const baseApiUrl = /*'http://192.168.15.13:8000'*/ 'http://localhost:8000'/*'https://seekclass-api.herokuapp.com'*/
+export const baseApiUrl = /*'http://192.168.15.13:8000'*/ /*'http://localhost:8000'*/'https://seekclass-api.herokuapp.com'
 
 export function showError(e) {
     if(e && e.response && e.response.data) {
