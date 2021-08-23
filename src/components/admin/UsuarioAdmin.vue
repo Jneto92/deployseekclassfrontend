@@ -96,7 +96,7 @@
             </b-form-group>
           </b-col>
         </b-row>
-        <b-button type="submit" variant="primary" v-if="mode === 'save'" @click="save"
+        <b-button variant="primary" v-if="mode === 'save'" @click="save"
           >Salvar</b-button
         >
         <b-button variant="danger" v-if="mode === 'remove'" @click="remove"
