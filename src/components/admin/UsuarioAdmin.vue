@@ -6,7 +6,7 @@
       sub="Edição de dados dos usuários."
     />
     <b-card class="mt-3 mb-3">
-      <b-form method="post" action="https://formspree.io/f/xnqlboeq">
+      <b-form>
         <input id="user-id" type="hidden" v-model="user.id" />
         <b-row>
           <b-col md="6" sm="12">
